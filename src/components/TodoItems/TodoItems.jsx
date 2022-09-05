@@ -10,7 +10,8 @@ if (port == null || port === "") {
     port = 8000;
 }
 
-const API_BASE = `http://localhost:${port}`;
+// const API_BASE = `http://localhost:${port}`;
+const API_BASE = "https://todo-list-client-heroku.herokuapp.com";
 
 function TodoItems() {
   const [todos, setTodos] = useState([]);
